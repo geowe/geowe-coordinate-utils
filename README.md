@@ -38,7 +38,7 @@ if(coordinateUtil.getDistance(points[0], points[1]) > 30) {
 
 ## Contributing ##
 To contribute to the project, feel free to modify and add functionalities. For each change, it is recommended to use the development environment, which is based in the validation tests. 
-To load the test locally, you can start a web server with `npm start` and go to `localhost: 9000`.
+To load the test locally, you can start a web server with `npm start` and go to `localhost:9000`.
 
 ## MIT License ##
 
