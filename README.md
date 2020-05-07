@@ -2,7 +2,7 @@
 Utility library for working with georeferenced coordinates
 
 ## Usage ##
-Install the geowe-coordinate-utils package using npm:
+Install the `geowe-coordinate-utils` package using npm:
 
     npm i geowe-coordinate-utils
 
