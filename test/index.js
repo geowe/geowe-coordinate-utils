@@ -45,7 +45,7 @@ function test3() {
 function test4() {
     let html = '<h1>Tests to check distances (m) between 2 coordinates in WGS84</h1><hr><ul>';
 
-    var points = [
+    const points = [
         [-4.773992331746113, 37.894851860089155],
         [-4.774045975926458, 37.89455553038567]
     ];
