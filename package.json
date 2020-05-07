@@ -1,0 +1,40 @@
+{
+    "name": "geowe-coordinate-utils",
+    "version": "1.0.0",
+    "description": "Utility library for working with georeferenced coordinates",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel test/index.html -p 9000 --no-cache"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/geowe/geowe-coordinate-utils.git"
+    },
+    "keywords": [
+        "geowe",
+        "util",
+        "coordinates",
+        "projection",
+        "coordinate-systems",
+        "geo",
+        "geolocation",
+        "gis"
+    ],
+    "author": {
+        "name": "José María Martínez Luna",
+        "email": "jmmluna@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/geowe/geowe-coordinate-utils/issues"
+    },
+    "homepage": "https://github.com/geowe/geowe-coordinate-utils#readme",
+    "devDependencies": {
+        "parcel-bundler": "^1.12.4"
+    },
+    "dependencies": {
+        "epsg-index": "^1.0.0",
+        "ol": "^6.3.1",
+        "proj4": "^2.6.1"
+    }
+}
