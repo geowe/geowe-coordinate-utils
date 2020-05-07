@@ -13,7 +13,7 @@ import coordinateUtil from 'geowe-coordinate-utils';
 
 const coordinate = [-4.775142321700772, 37.88657834791404];
 
-// The epsgCode format can be: 'EPSG:XXXX' or 'XXXX'
+// Validates that the coordinate values ​​are in the given projection. The epsg code parameter format can be: 'EPSG:XXXX' or 'XXXX'
 if(coordinateUtil.hasValidProjection(coordinate, '4326')) {
   ...
 }
